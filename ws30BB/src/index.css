@@ -3,7 +3,7 @@
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #716b6be6;
-  font-size: x-large;
+  font-size: large;
 }
 
 nav ul{
@@ -41,3 +41,23 @@ img {
 h2 {
   margin-left: 2em;
 }
+
+.loginCard {
+  display: flex;
+  gap: 1em;
+  list-style: none;
+}
+
+button {
+  border-radius: 8px;
+  border:1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  background-color: rgb(128, 0, 255);
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: blanchedalmond;
+}
+
